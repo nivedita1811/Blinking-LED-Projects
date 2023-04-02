@@ -1,8 +1,0 @@
-Readme file for STM32f072Rb board
-Overview
-This readme file contains information about the configuration of the STM32f072Rb board. In particular, it provides details about the configuration of the PA0 pin, which is set as an input and connected to the B1 button. The code for activating the LED when the button is pressed and deactivating it if it is pressed again is also included in the file gpio.c located at LED With Interrupt/button_interrupt_1/Core/Src/gpio.c.
-Configuration of PA0 Pin
-The PA0 pin on the STM32f072Rb board is set as an input pin and connected to the B1 button. This pin is configured to use the internal pull-up resistor. When the button is pressed, the pin is grounded, and the input state changes to low. When the button is released, the input state returns to high.
-Code for LED Activation
-The code for activating the LED when the button is pressed and deactivating it if it is pressed again is included in the file gpio.c located at LED With 
-
